@@ -47,6 +47,7 @@ typedef uint64_t u64;
 
 int main() 
 {
+    printf("Linux 3.18\n");
     node *zone = malloc(sizeof(node));
     int min_free_kbytes = 90112;
 
