@@ -49,7 +49,6 @@ int main()
 {
     node *zone = malloc(sizeof(node));
     int min_free_kbytes = 90112;
-    int watermark_scale_factor = 10;
 
     u64 tmp;
     u64 wmark_min;
