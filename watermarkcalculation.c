@@ -49,7 +49,7 @@ typedef uint64_t u64;
 
 int main() 
 {
-    printf("Linux v4.9.18\n");
+    printf("Linux 4.9.18\n");
     node *zone = malloc(sizeof(node));
     int min_free_kbytes = 90112;
     int watermark_scale_factor = 10;
